@@ -1,19 +1,19 @@
 {
-    "changelog": [
-        "See GitHub releases for details: https://github.com/NoahMustafa/Aither-Download-Manager/releases/tag/v0.1.0"
-    ],
-    "version": "0.1.0",
-    "pub_date": "2026-01-29T06:12:59Z",
-    "requires_full_install": false,
-    "full_installer": {
-        "signature": "",
-        "url": "https://github.com/NoahMustafa/Aither-Download-Manager/releases/download/v0.1.0/Aither_0.1.0_x64.msi",
-        "size": 116932608
-    },
-    "exe_update": {
-        "url": "https://github.com/NoahMustafa/Aither-Download-Manager/releases/download/v0.1.0/aither-0.1.0.exe",
-        "checksum": "33412f7f2e0c88ee5bd5dd2bea243bb1ecf84ac05d542213799d89bdc6ed470c",
-        "size": 42700288
-    },
-    "mandatory": false
+    "changelog":  [
+                      "See GitHub releases for details: https://github.com/NoahMustafa/Aither-Download-Manager/releases/tag/v0.1.0"
+                  ],
+    "version":  "0.1.0",
+    "pub_date":  "2026-01-30T00:28:57Z",
+    "requires_full_install":  false,
+    "full_installer":  {
+                           "signature":  "",
+                           "url":  "https://github.com/NoahMustafa/Aither-Download-Manager/releases/download/v0.1.0/Aither_0.1.0_x64.msi",
+                           "size":  116932608
+                       },
+    "exe_update":  {
+                       "url":  "https://github.com/NoahMustafa/Aither-Download-Manager/releases/download/v0.1.0/aither-0.1.0.exe",
+                       "checksum":  "a197ab7db72a3a9fcd622724760f07967d9529e81d6726f91a3bb06a683283ba",
+                       "size":  42697216
+                   },
+    "mandatory":  false
 }
