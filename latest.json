@@ -1,0 +1,17 @@
+{
+  "version": "0.0.0",
+  "pub_date": "2024-01-01T00:00:00Z",
+  "mandatory": false,
+  "changelog": ["Initial setup"],
+  "requires_full_install": false,
+  "exe_update": {
+    "url": "https://github.com/NoahMustafa/Aither-Download-Manager/releases/download/v0.0.0/aither-0.0.0.exe",
+    "size": 0,
+    "checksum": "placeholder"
+  },
+  "full_installer": {
+    "url": "https://github.com/NoahMustafa/Aither-Download-Manager/releases/download/v0.0.0/Aither_0.0.0_x64.msi",
+    "size": 0,
+    "signature": "placeholder"
+  }
+}
