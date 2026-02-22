@@ -1,19 +1,43 @@
 {
-    "changelog":  [
-                      "See GitHub releases for details: https://github.com/NoahMustafa/Aither-Download-Manager/releases/tag/v0.1.1"
-                  ],
-    "version":  "0.1.1",
-    "pub_date":  "2026-01-30T02:02:23Z",
-    "requires_full_install":  false,
-    "full_installer":  {
-                           "signature":  "",
-                           "url":  "https://github.com/NoahMustafa/Aither-Download-Manager/releases/download/v0.1.1/Aither_0.1.1_x64.msi",
-                           "size":  116932608
-                       },
-    "exe_update":  {
-                       "url":  "https://github.com/NoahMustafa/Aither-Download-Manager/releases/download/v0.1.1/aither-0.1.1.exe",
-                       "checksum":  "44e136a3a3a81e2aa9aeac181a42c47e47462e59d4cfdddd7f49ba940ce3fd39",
-                       "size":  42664960
-                   },
-    "mandatory":  false
+  "version": "0.1.0",
+  "pub_date": "2026-02-20T18:00:00Z",
+  "mandatory": false,
+  "changelog": [
+    "First Official Beta Release of Aither Download Manager",
+    "We are proud to announce the first official beta release of Aither Download Manager, a powerful, modern download solution built for performance, reliability, and flexibility.",
+    "Core Features:",
+    "Native HTTP/HTTPS/FTP/FTPS Engine — High-performance, multi-connection download engine with parallel segment support for maximum throughput.",
+    "Crash-Resistant State Persistence — Robust session recovery system that allows downloads to resume seamlessly after application restart or unexpected crashes.",
+    "Torrent Support via aria2c — Integrated BitTorrent support powered by aria2c.",
+    "Media Downloads via yt-dlp — Download media from YouTube and 1000+ supported platforms using yt-dlp.",
+    "Browser Integration:",
+    "Browser Extension Support — Intercept downloads directly from your browser and automatically detect media on any webpage.",
+    "In-Page Overlay Button — Hover over any video to instantly send it to Aither without opening a new tab.",
+    "One-Click Media Downloads — Download videos, reels, and full playlists from supported social media and video platforms with a single click.",
+    "Advanced Capabilities:",
+    "Cookie-Based Authentication — Download private, login-protected, and age-restricted content using authenticated session cookies.",
+    "Proxy Support & Traffic Controls — Configure proxies, apply per-engine speed limits, and customize connection counts for precise control.",
+    "Multi-Language Support — Available in 16 languages.",
+    "Beta Notice:",
+    "As this is a beta release, bugs, performance inconsistencies, or edge-case failures may occur.",
+    "Some workflows may still be optimized in future updates.",
+    "User feedback is essential to help stabilize and enhance the platform.",
+    "If you find issues, please open a detailed report in the Issues section.",
+    "Support Development:",
+    "Aither is actively evolving. Contributions, feedback, and community support directly accelerate development and feature delivery.",
+    "If you find Aither useful and want to support faster development, consider contributing or donating. Your support helps prioritize improvements, expand platform support, and maintain long-term sustainability.",
+    "Thank you for testing and supporting Aither Download Manager."
+  ],
+  "requires_full_install": true,
+  "min_version_for_exe_update": "0.1.0",
+  "full_installer": {
+    "signature": "",
+    "url": "https://github.com/NoahMustafa/Aither-Download-Manager/releases/download/v0.1.0/Aither_0.1.0_x64.msi",
+    "size": 117501952
+  },
+  "exe_update": {
+    "url": "https://github.com/NoahMustafa/Aither-Download-Manager/releases/download/v0.1.0/aither-0.1.0-update-payload.exe",
+    "checksum": "e5fbcf4d5d05a8c36e5c69addce2b276ced9e67e2d094b5a9ff39a8e40be8b1a",
+    "size": 44533248
+  }
 }
