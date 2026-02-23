@@ -7,7 +7,7 @@
 -->
 <img src="docs/assets/icon.png" width="120" alt="Aither" />
 
-# Aither
+# Aither Download Manager
 
 **A next-generation download manager built for speed, privacy, and simplicity.**
 
