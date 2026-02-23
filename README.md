@@ -5,7 +5,7 @@
   Recommended: a 128x128 or 256x256 PNG of the Aither icon.
   Example: <img src="docs/assets/icon.png" width="120" alt="Aither icon" />
 -->
-<img src="docss/assets/icon.png" width="120" alt="Aither" />
+<img src="docs/assets/icon.png" width="120" alt="Aither" />
 
 # Aither
 
@@ -28,7 +28,7 @@
   Recommended size: 1280x800 or wider. Save as docs/assets/screenshot-main.png
 -->
 
-![Aither main window](docss/assets/screenshot-main.png)
+![Aither main window](docs/assets/screenshot-main.png)
 
 ---
 
@@ -90,7 +90,7 @@ Aither is a free, freemium download manager that replaces your browser's built-i
 
 ### Active Download
 
-![Active download progress](docss/assets/screenshot-download-progress.png)
+![Active download progress](docs/assets/screenshot-download-progress.png)
 
 ---
 
@@ -103,7 +103,7 @@ Aither is a free, freemium download manager that replaces your browser's built-i
 
 ### Media Quality Selector
 
-![Media quality selector](docss/assets/screenshot-media-analyzer.png)
+![Media quality selector](docs/assets/screenshot-media-analyzer.png)
 
 ---
 
@@ -115,7 +115,7 @@ Aither is a free, freemium download manager that replaces your browser's built-i
 
 ### In-Page Overlay Button
 
-![In-page overlay download button](docss/assets/screenshot-overlay.png)
+![In-page overlay download button](docs/assets/screenshot-overlay.png)
 
 ---
 
@@ -127,7 +127,7 @@ Aither is a free, freemium download manager that replaces your browser's built-i
 
 ### Browser Extension
 
-![Browser extension popup](docss/assets/screenshot-extension-popup.png)
+![Browser extension popup](docs/assets/screenshot-extension-popup.png)
 
 ---
 
@@ -139,7 +139,7 @@ Aither is a free, freemium download manager that replaces your browser's built-i
 
 ### Settings
 
-![Settings](docss/assets/screenshot-settings.png)
+![Settings](docs/assets/screenshot-settings.png)
 
 </details>
 
