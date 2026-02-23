@@ -5,7 +5,7 @@
   Recommended: a 128x128 or 256x256 PNG of the Aither icon.
   Example: <img src="docs/assets/icon.png" width="120" alt="Aither icon" />
 -->
-<img src="docs/assets/icon.png" width="120" alt="Aither" />
+<img src="docss/assets/icon.png" width="120" alt="Aither" />
 
 # Aither
 
@@ -27,7 +27,8 @@
   download list — ideally showing 2-3 active downloads with progress bars, speed, and ETA.
   Recommended size: 1280x800 or wider. Save as docs/assets/screenshot-main.png
 -->
-![Aither main window](docs/assets/screenshot-main.png)
+
+![Aither main window](docss/assets/screenshot-main.png)
 
 ---
 
@@ -40,27 +41,32 @@ Aither is a free, freemium download manager that replaces your browser's built-i
 ## Features
 
 ### Native Download Engine
+
 - **Multi-connection parallel downloads** — splits files into chunks and downloads simultaneously
 - **HTTP, HTTPS, FTP, and FTPS** support out of the box
 - **Crash-resistant** — state is saved continuously; resume exactly where you left off after a crash or restart
 - **Auto-retry** on network drops with intelligent backoff
 
 ### Media Downloads
+
 - **1000+ supported sites** via yt-dlp — YouTube, Vimeo, Twitter/X, Reddit, Instagram, TikTok, Dailymotion, Twitch, and many more
 - **Quality selector** — choose resolution, format, and audio tracks before downloading
 - **Playlist support** — download entire playlists or channels in one go
 - **Cookie-based authentication** — access private, login-protected, and age-restricted content using your browser session
 
 ### Browser Extension
+
 - **Automatic download interception** — every download link in your browser is routed through Aither
 - **In-page overlay button** — a download button appears directly on top of videos as you browse; no copy-pasting URLs
 - **Blacklist** — exclude specific domains so the browser handles them natively
 
 ### Torrent
+
 - **Torrent and magnet link support** via aria2c
 - Configurable connections and speed limits per download
 
 ### General
+
 - **Auto-update** — lightweight background updates without reinstalling
 - **System tray** — runs quietly in the background, always available
 - **Proxy support** — per-download or global proxy configuration
@@ -81,8 +87,10 @@ Aither is a free, freemium download manager that replaces your browser's built-i
   speed (MB/s), ETA, file name, and the pause/cancel buttons.
   Save as: docs/assets/screenshot-download-progress.png
 -->
+
 ### Active Download
-![Active download progress](docs/assets/screenshot-download-progress.png)
+
+![Active download progress](docss/assets/screenshot-download-progress.png)
 
 ---
 
@@ -92,8 +100,10 @@ Aither is a free, freemium download manager that replaces your browser's built-i
   and the "Use Site Cookies" checkbox.
   Save as: docs/assets/screenshot-media-analyzer.png
 -->
+
 ### Media Quality Selector
-![Media quality selector](docs/assets/screenshot-media-analyzer.png)
+
+![Media quality selector](docss/assets/screenshot-media-analyzer.png)
 
 ---
 
@@ -102,8 +112,10 @@ Aither is a free, freemium download manager that replaces your browser's built-i
   button visible on top of a video thumbnail. Shows the extension in action.
   Save as: docs/assets/screenshot-overlay.png
 -->
+
 ### In-Page Overlay Button
-![In-page overlay download button](docs/assets/screenshot-overlay.png)
+
+![In-page overlay download button](docss/assets/screenshot-overlay.png)
 
 ---
 
@@ -112,8 +124,10 @@ Aither is a free, freemium download manager that replaces your browser's built-i
   (Intercept Downloads, Detect Media) and the Blacklist section.
   Save as: docs/assets/screenshot-extension-popup.png
 -->
+
 ### Browser Extension
-![Browser extension popup](docs/assets/screenshot-extension-popup.png)
+
+![Browser extension popup](docss/assets/screenshot-extension-popup.png)
 
 ---
 
@@ -122,8 +136,10 @@ Aither is a free, freemium download manager that replaces your browser's built-i
   connection count, language selector, and proxy settings.
   Save as: docs/assets/screenshot-settings.png
 -->
+
 ### Settings
-![Settings](docs/assets/screenshot-settings.png)
+
+![Settings](docss/assets/screenshot-settings.png)
 
 </details>
 
@@ -132,20 +148,23 @@ Aither is a free, freemium download manager that replaces your browser's built-i
 ## Installation
 
 ### Option 1 — MSI Installer (Recommended)
+
 1. Download **`Aither_0.1.0_x64.msi`** from the [latest release](https://github.com/NoahMustafa/Aither-Download-Manager/releases/tag/v0.1.0)
 2. Run the installer and follow the prompts
 3. Aither launches automatically and appears in the system tray
 
 ### Option 2 — Portable
+
 > Coming in a future release.
 
 ### System Requirements
-| | Minimum |
-|---|---|
-| **OS** | Windows 10 64-bit (build 1903+) |
-| **RAM** | 100 MB |
-| **Disk** | 200 MB |
-| **Network** | Any |
+
+|             | Minimum                         |
+| ----------- | ------------------------------- |
+| **OS**      | Windows 10 64-bit (build 1903+) |
+| **RAM**     | 100 MB                          |
+| **Disk**    | 200 MB                          |
+| **Network** | Any                             |
 
 ---
 
@@ -192,15 +211,15 @@ Browser Extension ──intercepts──► Aither App
 
 ## Built With
 
-| Layer | Technology |
-|---|---|
-| Desktop framework | [Tauri](https://tauri.app) |
-| Backend / Engine | [Rust](https://www.rust-lang.org) + [Tokio](https://tokio.rs) |
-| Frontend | [React](https://react.dev) + [TypeScript](https://www.typescriptlang.org) |
-| Database | SQLite via [sqlx](https://github.com/launchbadge/sqlx) |
-| Media downloads | [yt-dlp](https://github.com/yt-dlp/yt-dlp) |
-| Torrents | [aria2c](https://aria2.github.io) |
-| Styling | [Tailwind CSS](https://tailwindcss.com) |
+| Layer             | Technology                                                                |
+| ----------------- | ------------------------------------------------------------------------- |
+| Desktop framework | [Tauri](https://tauri.app)                                                |
+| Backend / Engine  | [Rust](https://www.rust-lang.org) + [Tokio](https://tokio.rs)             |
+| Frontend          | [React](https://react.dev) + [TypeScript](https://www.typescriptlang.org) |
+| Database          | SQLite via [sqlx](https://github.com/launchbadge/sqlx)                    |
+| Media downloads   | [yt-dlp](https://github.com/yt-dlp/yt-dlp)                                |
+| Torrents          | [aria2c](https://aria2.github.io)                                         |
+| Styling           | [Tailwind CSS](https://tailwindcss.com)                                   |
 
 ---
 
@@ -246,12 +265,29 @@ No user data, download history, machine information, or analytics are included i
 
 ### Summary
 
-| Data | Stored | Encrypted | Uploaded |
-|---|---|---|---|
-| Your cookies | Temporarily, locally | Yes — AES-256-GCM | Never |
-| Your downloads | Locally (your chosen folder) | No | Never |
-| Application logs | Locally (`%APPDATA%\Aither\logs\`) | Yes — RSA-2048 + AES-256-GCM | Never |
-| Usage / analytics | Not collected | — | Never |
+| Data              | Stored                             | Encrypted                    | Uploaded |
+| ----------------- | ---------------------------------- | ---------------------------- | -------- |
+| Your cookies      | Temporarily, locally               | Yes — AES-256-GCM            | Never    |
+| Your downloads    | Locally (your chosen folder)       | No                           | Never    |
+| Application logs  | Locally (`%APPDATA%\Aither\logs\`) | Yes — RSA-2048 + AES-256-GCM | Never    |
+| Usage / analytics | Not collected                      | —                            | Never    |
+
+---
+
+## Support the Project
+
+Aither is **completely free** — no ads, no subscriptions, no paywalls, no profit motive. Every feature is available to every user at no cost.
+
+If Aither saves you time and you'd like to say thanks, a small donation helps cover the cost of keeping the project alive: server costs, tooling, and continued development. It is entirely optional and never expected.
+
+<div align="center">
+
+[![PayPal](https://img.shields.io/badge/Donate-PayPal-0070ba?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/MahmoudMustafa186)
+[![Ko-fi](https://img.shields.io/badge/Support-Ko--fi-ff5e5b?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/noah_mustafa_stuff)
+
+</div>
+
+> Donating does not unlock any features — everything is already free. It simply helps keep the lights on.
 
 ---
 
@@ -263,7 +299,39 @@ Contributions, bug reports, and feature requests are welcome. Please open an iss
 
 ## License
 
-Aither is freemium, all free with optional support to continue development. See the [LICENSE](LICENSE) file for details.
+Aither is **free to use** but **not open source**. The source code is proprietary and may not be copied, modified, redistributed, or used to build derivative products without explicit written permission from the Aither Team.
+
+**What you can do:**
+- Download and use Aither for personal or commercial purposes at no cost
+- Report bugs and suggest features
+
+**What you cannot do:**
+- Redistribute, repackage, or resell Aither or its components
+- Decompile, reverse engineer, or modify the application
+- Use the source code or assets in other projects
+
+### Content & Copyright Notice
+
+Aither is a download tool. It does not host, distribute, or provide access to any content. It simply helps you download files and media that you access through your own browser and accounts.
+
+**Aither does not encourage or condone:**
+- Downloading copyrighted content without the rights holder's permission
+- Circumventing DRM or access controls
+- Violating the terms of service of any platform
+
+You are solely responsible for ensuring that your use of Aither complies with applicable laws and the terms of the platforms you interact with. The developers of Aither assume no liability for how the software is used.
+
+### Disclaimer
+
+Aither is provided **as-is**, without any warranty of any kind — express or implied. By using Aither, you agree to the following:
+
+- **We are not responsible for anything you download.** What you choose to download using Aither is entirely your own decision and your own responsibility.
+- **No security guarantees.** While we have implemented reasonable security measures (encrypted cookies, encrypted logs, no telemetry, local-only data), Aither is not a certified or audited security product. No software is 100% secure. Vulnerabilities may exist.
+- **Security issues will be addressed promptly.** If a security issue is discovered, we will make every reasonable effort to investigate and release a fix as quickly as possible. However, we cannot guarantee a specific response time or that all issues will be resolved.
+- **Keep the app updated.** Security fixes and patches are delivered through app updates. We strongly recommend keeping Aither up to date at all times. Outdated versions may contain known vulnerabilities that have already been patched in newer releases.
+- **Use at your own risk.** The Aither Team provides this software in good faith and with genuine effort toward quality and security, but we make no guarantees about fitness for any particular purpose, uninterrupted operation, or freedom from bugs or security flaws.
+
+The Aither Team shall not be held liable for any damages, data loss, legal consequences, or other harm arising from the use or misuse of this software.
 
 ---
 
