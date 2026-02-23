@@ -278,7 +278,7 @@ No user data, download history, machine information, or analytics are included i
 
 Aither is **completely free** — no ads, no subscriptions, no paywalls, no profit motive. Every feature is available to every user at no cost.
 
-If Aither saves you time and you'd like to say thanks, a small donation helps cover the cost of keeping the project alive: server costs, tooling, and continued development. It is entirely optional and never expected.
+If Aither saves you time and you'd like to say thanks, a small donation helps cover the cost of keeping the project alive: tooling, and continued development. It is entirely optional and never expected.
 
 <div align="center">
 
