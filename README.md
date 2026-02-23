@@ -18,7 +18,7 @@
 [![PayPal](https://img.shields.io/badge/Donate-PayPal-0070ba?style=flat-square&logo=paypal&logoColor=white)](https://paypal.me/MahmoudMustafa186)
 [![Ko-fi](https://img.shields.io/badge/Support-Ko--fi-ff5e5b?style=flat-square&logo=ko-fi&logoColor=white)](https://ko-fi.com/noah_mustafa_stuff)
 
-[**Download**](https://github.com/NoahMustafa/Aither-Download-Manager/releases/tag/v0.1.0) · [**Report a Bug**](https://github.com/NoahMustafa/Aither-Download-Manager/issues) · [**Request a Feature**](https://github.com/NoahMustafa/Aither-Download-Manager/issues) · [**Buy me a coffee ☕**](https://ko-fi.com/noah_mustafa_stuff)
+[**Download**](https://github.com/NoahMustafa/Aither-Download-Manager/releases/latest) · [**Report a Bug**](https://github.com/NoahMustafa/Aither-Download-Manager/issues) · [**Request a Feature**](https://github.com/NoahMustafa/Aither-Download-Manager/issues) · [**Buy me a coffee ☕**](https://ko-fi.com/noah_mustafa_stuff)
 
 </div>
 
@@ -151,7 +151,7 @@ Aither is a free, freemium download manager that replaces your browser's built-i
 
 ### Option 1 — MSI Installer (Recommended)
 
-1. Download **`Aither_0.1.0_x64.msi`** from the [latest release](https://github.com/NoahMustafa/Aither-Download-Manager/releases/tag/v0.1.0)
+1. Download **`Aither_0.1.0_x64.msi`** from the [latest release](https://github.com/NoahMustafa/Aither-Download-Manager/releases/latest)
 2. Run the installer and follow the prompts
 3. Aither launches automatically and appears in the system tray
 
