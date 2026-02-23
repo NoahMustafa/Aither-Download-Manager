@@ -291,6 +291,20 @@ If Aither saves you time and you'd like to say thanks, a small donation helps co
 
 ---
 
+## Acknowledgements
+
+Aither would not be possible without these incredible open source projects:
+
+- **[yt-dlp](https://github.com/yt-dlp/yt-dlp)** — the powerful media extraction engine behind Aither's video and audio downloads. A massive thanks to the yt-dlp team and all its contributors for maintaining support for 1000+ sites and keeping it free for everyone.
+
+- **[aria2](https://github.com/aria2/aria2)** — the lightweight, high-performance download utility that powers Aither's torrent and magnet link support. Thank you to the aria2 team for building such a reliable and capable tool.
+
+- **[FFmpeg](https://ffmpeg.org)** — the industry-standard multimedia framework used for merging and converting media streams. Thank you to the FFmpeg project and its contributors.
+
+These projects are distributed under their respective open source licenses. Aither bundles their binaries solely for user convenience — all credit belongs to their respective authors and communities.
+
+---
+
 ## Contributing
 
 Contributions, bug reports, and feature requests are welcome. Please open an issue before submitting a pull request so we can discuss the approach.
