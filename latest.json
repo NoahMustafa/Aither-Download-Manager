@@ -28,16 +28,34 @@
     "If you find Aither useful and want to support faster development, consider contributing or donating. Your support helps prioritize improvements, expand platform support, and maintain long-term sustainability.",
     "Thank you for testing and supporting Aither Download Manager."
   ],
+{
+  "version": "0.1.0",
+  "pub_date": "2026-02-23T00:00:00Z",
+  "mandatory": false,
+  "changelog": [
+    "First official release of Aither Download Manager",
+    "Native HTTP/HTTPS/FTP/FTPS download engine with multi-connection parallel downloads",
+    "Crash-resistant state persistence — resume downloads after app restart or crash",
+    "Torrent support via aria2c",
+    "Media downloads via yt-dlp (YouTube, and 1000+ sites)",
+    "Browser extension integration for intercepting downloads and auto-detecting media on any page",
+    "In-page overlay button — hover over any video to instantly send it to Aither without opening a new tab",
+    "Download videos, reels, and full playlists from social media and video platforms with one click",
+    "Cookie-based authentication for private, login-protected, and age-restricted content",
+    "Proxy support, per-engine speed limits, and configurable connections",
+    "Multi-language support (16 languages)"
+  ],
   "requires_full_install": true,
   "min_version_for_exe_update": "0.1.0",
   "full_installer": {
     "signature": "",
     "url": "https://github.com/NoahMustafa/Aither-Download-Manager/releases/download/v0.1.0/Aither_0.1.0_x64.msi",
-    "size": 117501952
+    "size": 117514240
   },
   "exe_update": {
     "url": "https://github.com/NoahMustafa/Aither-Download-Manager/releases/download/v0.1.0/aither-0.1.0-update-payload.exe",
-    "checksum": "e5fbcf4d5d05a8c36e5c69addce2b276ced9e67e2d094b5a9ff39a8e40be8b1a",
-    "size": 44533248
+    "checksum": "0ff93c03fa1a36d2f86154c2c787967979a3879713c948a64f6f9f0552062278",
+    "size": 44577792
   }
 }
+
