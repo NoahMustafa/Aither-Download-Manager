@@ -15,8 +15,10 @@
 [![Platform](https://img.shields.io/badge/platform-Windows-0078d4?style=flat-square&logo=windows)](https://github.com/NoahMustafa/Aither-Download-Manager/releases/tag/v0.1.0)
 [![Built with Tauri](https://img.shields.io/badge/built%20with-Tauri-24c8db?style=flat-square&logo=tauri)](https://tauri.app)
 [![Built with Rust](https://img.shields.io/badge/engine-Rust-f74c00?style=flat-square&logo=rust)](https://www.rust-lang.org)
+[![PayPal](https://img.shields.io/badge/Donate-PayPal-0070ba?style=flat-square&logo=paypal&logoColor=white)](https://paypal.me/MahmoudMustafa186)
+[![Ko-fi](https://img.shields.io/badge/Support-Ko--fi-ff5e5b?style=flat-square&logo=ko-fi&logoColor=white)](https://ko-fi.com/noah_mustafa_stuff)
 
-[**Download**](https://github.com/NoahMustafa/Aither-Download-Manager/releases/tag/v0.1.0) · [**Report a Bug**](https://github.com/NoahMustafa/Aither-Download-Manager/issues) · [**Request a Feature**](https://github.com/NoahMustafa/Aither-Download-Manager/issues)
+[**Download**](https://github.com/NoahMustafa/Aither-Download-Manager/releases/tag/v0.1.0) · [**Report a Bug**](https://github.com/NoahMustafa/Aither-Download-Manager/issues) · [**Request a Feature**](https://github.com/NoahMustafa/Aither-Download-Manager/issues) · [**Buy me a coffee ☕**](https://ko-fi.com/noah_mustafa_stuff)
 
 </div>
 
