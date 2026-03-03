@@ -17,12 +17,12 @@
   "min_version_for_exe_update": "0.1.0",
   "full_installer": {
     "signature": "",
-    "url": "https://github.com/NoahMustafa/Aither-Download-Manager/releases/download/v0.1.2/Aither_0.1.2_x64.msi",
+    "url": "https://github.com/NoahMustafa/Aither-Download-Manager/releases/download/v0.1.1/Aither_0.1.2_x64.msi",
     "checksum": "ac030e2e60a143638de638f5b191048bb733249723c38bfcc4652ed1f8ade1be",
     "size": 117571584
   },
   "exe_update": {
-    "url": "https://github.com/NoahMustafa/Aither-Download-Manager/releases/download/v0.1.2/aither-0.1.2-update-payload.exe",
+    "url": "https://github.com/NoahMustafa/Aither-Download-Manager/releases/download/v0.1.1/aither-0.1.2-update-payload.exe",
     "checksum": "99f5d8bab8aefba38d9c791fc1c71b1ef0ba2f0d31c7b08e7fc831f8c4ef99ad",
     "size": 44827136
   }
