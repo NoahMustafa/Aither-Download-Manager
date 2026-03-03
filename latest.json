@@ -13,17 +13,17 @@
     "Added: UA rotation — automatically retries with a fresh User-Agent on 429/403 errors (up to 3 attempts)",
     "Added: startup dialog prompts user to close browsers before replacing locked native host binary"
   ],
-  "requires_full_install": false,
-  "min_version_for_exe_update": "0.1.0",
+  "requires_full_install": true,
+  "min_version_for_exe_update": "0.1.2",
   "full_installer": {
     "signature": "",
-    "url": "https://github.com/NoahMustafa/Aither-Download-Manager/releases/download/v0.1.1/Aither_0.1.2_x64.msi",
-    "checksum": "ac030e2e60a143638de638f5b191048bb733249723c38bfcc4652ed1f8ade1be",
-    "size": 117571584
+    "url": "https://github.com/NoahMustafa/Aither-Download-Manager/releases/download/v0.1.2/Aither_0.1.2_x64.msi",
+    "checksum": "f71547919a886ffac37a66f03e74c39d840f32620ca4dc837107b2e2a9da271f",
+    "size": 117567488
   },
   "exe_update": {
-    "url": "https://github.com/NoahMustafa/Aither-Download-Manager/releases/download/v0.1.1/aither-0.1.2-update-payload.exe",
-    "checksum": "99f5d8bab8aefba38d9c791fc1c71b1ef0ba2f0d31c7b08e7fc831f8c4ef99ad",
+    "url": "https://github.com/NoahMustafa/Aither-Download-Manager/releases/download/v0.1.2/aither-0.1.2-update-payload.exe",
+    "checksum": "a8d28dfb58ccdc661f2de88a7b3c4ef6d32b64616fe4519ecefbb1dd52032475",
     "size": 44827136
   }
 }
