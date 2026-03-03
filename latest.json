@@ -1,43 +1,29 @@
 {
-  "version": "0.1.0",
-  "pub_date": "2026-02-23T00:00:00Z",
+  "version": "0.1.2",
+  "pub_date": "2026-03-03T00:00:00Z",
   "mandatory": false,
   "changelog": [
-    "First Official Beta Release of Aither Download Manager",
-    "We are proud to announce the first official beta release of Aither Download Manager, a powerful, modern download solution built for performance, reliability, and flexibility.",
-    "Core Features:",
-    "Native HTTP/HTTPS/FTP/FTPS Engine — High-performance, multi-connection download engine with parallel segment support for maximum throughput.",
-    "Crash-Resistant State Persistence — Robust session recovery system that allows downloads to resume seamlessly after application restart or unexpected crashes.",
-    "Torrent Support via aria2c — Integrated BitTorrent support powered by aria2c.",
-    "Media Downloads via yt-dlp — Download media from YouTube and 1000+ supported platforms using yt-dlp.",
-    "Browser Integration:",
-    "Browser Extension Support — Intercept downloads directly from your browser and automatically detect media on any webpage.",
-    "In-Page Overlay Button — Hover over any video to instantly send it to Aither without opening a new tab.",
-    "One-Click Media Downloads — Download videos, reels, and full playlists from supported social media and video platforms with a single click.",
-    "Advanced Capabilities:",
-    "Cookie-Based Authentication — Download private, login-protected, and age-restricted content using authenticated session cookies.",
-    "Proxy Support & Traffic Controls — Configure proxies, apply per-engine speed limits, and customize connection counts for precise control.",
-    "Multi-Language Support — Available in 16 languages.",
-    "Beta Notice:",
-    "As this is a beta release, bugs, performance inconsistencies, or edge-case failures may occur.",
-    "Some workflows may still be optimized in future updates.",
-    "User feedback is essential to help stabilize and enhance the platform.",
-    "If you find issues, please open a detailed report in the Issues section.",
-    "Support Development:",
-    "Aither is actively evolving. Contributions, feedback, and community support directly accelerate development and feature delivery.",
-    "If you find Aither useful and want to support faster development, consider contributing or donating. Your support helps prioritize improvements, expand platform support, and maintain long-term sustainability.",
-    "Thank you for testing and supporting Aither Download Manager."
+    "Fixed: chunk size mismatch error during downloads — temp files now isolated per download in a hidden folder",
+    "Fixed: cancelled/paused download showed 0% progress in UI instead of actual progress",
+    "Fixed: speed display showing unrealistic values (e.g. 1.5 GB/s) at download start",
+    "Fixed: speed limit settings panel showed 0 after reopening when limit was under 1 MB/s",
+    "Fixed: per-job speed limit dialog did not apply to already-running download",
+    "Fixed: Reset to Defaults button in settings did nothing (confirmation dialog was never rendered)",
+    "Fixed: RFC 5987 filename decoding, redirect probe fallback, URL expiry handling",
+    "Added: UA rotation — automatically retries with a fresh User-Agent on 429/403 errors (up to 3 attempts)",
+    "Added: startup dialog prompts user to close browsers before replacing locked native host binary"
   ],
-  "requires_full_install": true,
+  "requires_full_install": false,
   "min_version_for_exe_update": "0.1.0",
   "full_installer": {
     "signature": "",
-    "url": "https://github.com/NoahMustafa/Aither-Download-Manager/releases/download/v0.1.0/Aither_0.1.0_x64.msi",
-    "size": 117514240
+    "url": "https://github.com/NoahMustafa/Aither-Download-Manager/releases/download/v0.1.2/Aither_0.1.2_x64.msi",
+    "checksum": "ac030e2e60a143638de638f5b191048bb733249723c38bfcc4652ed1f8ade1be",
+    "size": 117571584
   },
   "exe_update": {
-    "url": "https://github.com/NoahMustafa/Aither-Download-Manager/releases/download/v0.1.0/aither-0.1.0-update-payload.exe",
-    "checksum": "0ff93c03fa1a36d2f86154c2c787967979a3879713c948a64f6f9f0552062278",
-    "size": 44577792
+    "url": "https://github.com/NoahMustafa/Aither-Download-Manager/releases/download/v0.1.2/aither-0.1.2-update-payload.exe",
+    "checksum": "99f5d8bab8aefba38d9c791fc1c71b1ef0ba2f0d31c7b08e7fc831f8c4ef99ad",
+    "size": 44827136
   }
 }
