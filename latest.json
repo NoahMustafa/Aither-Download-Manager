@@ -1,31 +1,27 @@
 {
-  "version": "0.1.2",
-  "pub_date": "2026-03-04T00:00:00Z",
+  "version": "0.1.3",
+  "pub_date": "2026-03-05T00:00:00Z",
   "mandatory": true,
   "changelog": [
-    "Fixed: some downloads would randomly fail or get stuck — now much more stable",
-    "Fixed: pausing or cancelling a download showed 0% progress instead of where it actually left off",
-    "Fixed: speed showed an impossible number (like 1.5 GB/s) right when a download started",
-    "Fixed: speed limit setting showed 0 after closing and reopening the settings panel",
-    "Fixed: changing the speed limit for a running download had no effect until restart",
-    "Fixed: the Reset to Defaults button in settings did nothing when clicked",
-    "Fixed: some files downloaded with a wrong or garbled filename",
-    "Fixed: the in-app update could silently fail and leave you on the old version",
-    "Fixed: updating the app on some machines required admin rights but never asked for them — now it does",
-    "Added: if a server blocks the download, Aither automatically retries with a different identity (up to 3 times)",
-    "Added: Aither now warns you to close your browser before updating the extension bridge, to avoid conflicts"
+    "Fixed: downloading some files failed with \"Access denied\" — now handled automatically",
+    "Fixed: yt-dlp showed \"already up to date\" even when it wasn't — version check now works correctly",
+    "Fixed: updating the app on C: drive installs silently failed or required admin but never asked — now prompts correctly when needed, and skips the prompt when not needed",
+    "Fixed: the app update installer used to show the full setup wizard — now it installs quietly in the background",
+    "Fixed: the app could close before you confirmed the admin prompt, cancelling the update — now it waits",
+    "Fixed: clicking the video download button on a webpage showed formats for a split second, then immediately showed an error",
+    "Fixed: the \"use browser cookies\" checkbox in the video downloader was on by default, which triggered bot detection on some sites — now off by default",
+    "Fixed: on fresh install, Aither re-downloaded yt-dlp and ffmpeg even though they were already included — now copies them from the installer instead",
+    "Fixed: ffmpeg failed to download when an update was available due to a network decompression error — now downloads correctly",
+    "Added: if a server blocks a download, Aither automatically retries with a different browser identity — up to 3 attempts before giving up",
+    "Improved: speed limit setting now saves and loads correctly across sessions",
+    "Improved: download engine is significantly more stable — fewer random failures or stuck downloads"
   ],
   "requires_full_install": true,
   "min_version_for_exe_update": "0.1.2",
   "full_installer": {
     "signature": "",
-    "url": "https://github.com/NoahMustafa/Aither-Download-Manager/releases/download/v0.1.2/Aither_0.1.2_x64.msi",
-    "checksum": "c0f29c15e24da70cf439447119829619a51354e82a0f3c3dd273504397f58b53",
-    "size": 117551104
-  },
-  "exe_update": {
-    "url": "https://github.com/NoahMustafa/Aither-Download-Manager/releases/download/v0.1.2/aither-0.1.2-update-payload.exe",
-    "checksum": "79cc11499a2a51e14a6211c875544122161b754a98ec808dae638b7bec2aaeb0",
-    "size": 44810240
+    "url": "https://github.com/NoahMustafa/Aither-Download-Manager/releases/download/v0.1.3/Aither_0.1.3_x64.msi",
+    "checksum": "9dc119cb6bb8f715d9d3f0e11e51abe5dce4c03aac92bc4700ce4756f79ed1e3",
+    "size": 88707072
   }
 }
