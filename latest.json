@@ -20,7 +20,7 @@
   "min_version_for_exe_update": "0.1.2",
   "full_installer": {
     "signature": "",
-    "url": "https://github.com/NoahMustafa/Aither-Download-Manager/releases/download/v0.1.4/Aither_0.1.4_x64",
+    "url": "https://github.com/NoahMustafa/Aither-Download-Manager/releases/download/v0.1.4/Aither_0.1.4_x64.msi",
     "checksum": "f0e52c47e983b58b4fbc22d0a95d2b325bbbc9b2cd3102cf1d7f21a7e7b648e7",
     "size": 88715264
   }
