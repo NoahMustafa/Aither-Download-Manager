@@ -1,8 +1,13 @@
 {
-  "version": "0.1.4",
-  "pub_date": "2026-03-05T00:00:00Z",
+  "version": "0.1.5",
+  "pub_date": "2026-03-06T00:00:00Z",
   "mandatory": true,
   "changelog": [
+    "Fixed: Browser extension overlay button downloads now work correctly for Facebook and other sites",
+    "Fixed: Long video titles no longer cause download failures — automatically truncated to safe length",
+    "Fixed: Extension folder can now be recovered automatically if accidentally deleted",
+    "Improved: Extension updates automatically on app restart (when browsers are closed)",
+    "Improved: Download commands are now cleaner and more reliable",
     "Fixed: downloading some files failed with \"Access denied\" — now handled automatically",
     "Fixed: yt-dlp showed \"already up to date\" even when it wasn't — version check now works correctly",
     "Fixed: updating the app on C: drive installs silently failed or required admin but never asked — now prompts correctly when needed, and skips the prompt when not needed",
@@ -20,8 +25,8 @@
   "min_version_for_exe_update": "0.1.2",
   "full_installer": {
     "signature": "",
-    "url": "https://github.com/NoahMustafa/Aither-Download-Manager/releases/download/v0.1.4/Aither_0.1.4_x64.msi",
-    "checksum": "f0e52c47e983b58b4fbc22d0a95d2b325bbbc9b2cd3102cf1d7f21a7e7b648e7",
-    "size": 88715264
+    "url": "https://github.com/NoahMustafa/Aither-Download-Manager/releases/download/v0.1.5/Aither_0.1.5_x64.msi",
+    "checksum": "68bc2336cca0b7b12caa6410dddd12fe07ebb8ab3ec4f1422f0ffe92421c02f3",
+    "size": 88772608
   }
 }
