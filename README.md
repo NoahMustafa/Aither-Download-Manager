@@ -11,14 +11,14 @@
 
 **A next-generation download manager built for speed, privacy, and simplicity.**
 
-[![Version](https://img.shields.io/badge/version-0.1.0--beta-a78bfa?style=flat-square)](https://github.com/NoahMustafa/Aither-Download-Manager/releases/tag/v0.1.0)
-[![Platform](https://img.shields.io/badge/platform-Windows-0078d4?style=flat-square&logo=windows)](https://github.com/NoahMustafa/Aither-Download-Manager/releases/tag/v0.1.0)
+[![Version](https://img.shields.io/badge/version-0.1.6-a78bfa?style=flat-square)](https://github.com/NoahMustafa/Aither-Download-Manager/releases/tag/v0.1.6)
+[![Platform](https://img.shields.io/badge/platform-Windows-0078d4?style=flat-square&logo=windows)](https://github.com/NoahMustafa/Aither-Download-Manager/releases/tag/v0.1.6)
 [![Built with Tauri](https://img.shields.io/badge/built%20with-Tauri-24c8db?style=flat-square&logo=tauri)](https://tauri.app)
 [![Built with Rust](https://img.shields.io/badge/engine-Rust-f74c00?style=flat-square&logo=rust)](https://www.rust-lang.org)
 [![PayPal](https://img.shields.io/badge/Donate-PayPal-0070ba?style=flat-square&logo=paypal&logoColor=white)](https://paypal.me/MahmoudMustafa186)
 [![Ko-fi](https://img.shields.io/badge/Support-Ko--fi-ff5e5b?style=flat-square&logo=ko-fi&logoColor=white)](https://ko-fi.com/noah_mustafa_stuff)
 
-[**Download**](https://github.com/NoahMustafa/Aither-Download-Manager/releases/latest) · [**Report a Bug**](https://github.com/NoahMustafa/Aither-Download-Manager/issues) · [**Request a Feature**](https://github.com/NoahMustafa/Aither-Download-Manager/issues) · [**Buy me a coffee ☕**](https://ko-fi.com/noah_mustafa_stuff)
+[**Website**](https://aither-landing-page.pages.dev/) · [**Download**](https://github.com/NoahMustafa/Aither-Download-Manager/releases/latest) · [**Report a Bug**](https://github.com/NoahMustafa/Aither-Download-Manager/issues) · [**Request a Feature**](https://github.com/NoahMustafa/Aither-Download-Manager/issues) · [**Buy me a coffee ☕**](https://ko-fi.com/noah_mustafa_stuff)
 
 </div>
 
@@ -73,6 +73,7 @@ Aither is a free, freemium download manager that replaces your browser's built-i
 - **System tray** — runs quietly in the background, always available
 - **Proxy support** — per-download or global proxy configuration
 - **Speed limits** — set global or per-engine download caps
+- **Clean reinstall tool (Nuke-Aither)** — standalone `.exe` that fully removes Aither for a fresh start, with an option to keep your download history
 - **16 languages** — Arabic, Chinese, Dutch, English, French, German, Hindi, Indonesian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Russian, Spanish, Swedish, Turkish
 
 ---
@@ -151,13 +152,17 @@ Aither is a free, freemium download manager that replaces your browser's built-i
 
 ### Option 1 — MSI Installer (Recommended)
 
-1. Download **`Aither_0.1.0_x64.msi`** from the [latest release](https://github.com/NoahMustafa/Aither-Download-Manager/releases/latest)
+1. Download **`Aither_0.1.6_x64.msi`** from the [latest release](https://github.com/NoahMustafa/Aither-Download-Manager/releases/latest)
 2. Run the installer and follow the prompts
 3. Aither launches automatically and appears in the system tray
 
 ### Option 2 — Portable
 
 > Coming in a future release.
+
+### Clean Reinstall / Full Reset
+
+Stuck on a corrupted install, or just want to start completely fresh? Download **`Nuke-Aither.exe`** from the [latest release](https://github.com/NoahMustafa/Aither-Download-Manager/releases/latest) and run it. It fully removes Aither — app, settings, and leftover files — with an option to keep your download history. Reinstall the MSI afterward for a clean slate.
 
 ### System Requirements
 
@@ -318,10 +323,12 @@ Contributions, bug reports, and feature requests are welcome. Please open an iss
 Aither is **free to use** but **not open source**. The source code is proprietary and may not be copied, modified, redistributed, or used to build derivative products without explicit written permission from the Aither Team.
 
 **What you can do:**
+
 - Download and use Aither for personal or commercial purposes at no cost
 - Report bugs and suggest features
 
 **What you cannot do:**
+
 - Redistribute, repackage, or resell Aither or its components
 - Decompile, reverse engineer, or modify the application
 - Use the source code or assets in other projects
@@ -331,6 +338,7 @@ Aither is **free to use** but **not open source**. The source code is proprietar
 Aither is a download tool. It does not host, distribute, or provide access to any content. It simply helps you download files and media that you access through your own browser and accounts.
 
 **Aither does not encourage or condone:**
+
 - Downloading copyrighted content without the rights holder's permission
 - Circumventing DRM or access controls
 - Violating the terms of service of any platform
