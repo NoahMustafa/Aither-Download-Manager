@@ -1,25 +1,21 @@
 {
-  "version": "0.1.6",
-  "pub_date": "2026-06-24T00:00:00Z",
+  "version": "0.1.7",
+  "pub_date": "2026-07-01T00:00:00Z",
   "mandatory": true,
   "changelog": [
-    "New: redesigned the in-browser download button — a subtle frosted control that stays out of your way and looks right on any page, light or dark",
-    "Fixed: Facebook Reels and feed videos now resolve to the real video link instead of a profile or page URL",
-    "Fixed: Facebook feed videos that occasionally showed no download button are now detected reliably",
-    "Fixed: YouTube no longer leaves a leftover download button after you preview a video in the home feed",
-    "Improved: the download button hides itself when a video is covered by a dialog or popup",
-    "Fixed: launching a download before the app finished starting could open two \"Add Download\" windows — now deduplicated",
-    "Improved: download details now show the active connection count and estimated time remaining",
-    "Fixed: file paths in the download and details windows no longer show the Windows \\\\?\\ prefix",
-    "Updated: bundled yt-dlp to the 2026.06.09 release for better site compatibility",
-    "New: a built-in clean-reinstall tool that fully removes Aither for a fresh start — and can keep your download history"
+    "Fixed: downloading a file that redirects through multiple links (e.g. some installer download pages) no longer opens two duplicate download windows",
+    "Fixed: right-clicking a video embedded from another site (e.g. RedGifs on Reddit) now sends the real video link instead of a broken internal browser link",
+    "Improved: the right-click download menu no longer shows duplicate entries for the same video",
+    "Fixed: right-clicking a video thumbnail (e.g. on the YouTube home page) now shows the \"Download media with Aither\" option",
+    "Fixed: YouTube no longer shows two overlapping download buttons for the same video after switching videos",
+    "Fixed: downloading from the browser extension no longer force-opens the main window when the app is minimized to the tray"
   ],
   "requires_full_install": true,
   "min_version_for_exe_update": "0.1.2",
   "full_installer": {
     "signature": "",
-    "url": "https://github.com/NoahMustafa/Aither-Download-Manager/releases/download/v0.1.6/Aither_0.1.6_x64.msi",
-    "checksum": "65244deeb347f7dcb892462a56a6c3a2777fadefde1676ffea87571e202d161d",
-    "size": 88387584
+    "url": "https://github.com/NoahMustafa/Aither-Download-Manager/releases/download/v0.1.7/Aither_0.1.7_x64.msi",
+    "checksum": "4da4fc01c73f388ffe69e99cb66b1199a8ef9990a25f960e2d0f6c9e4a16ea41",
+    "size": 87449600
   }
 }
