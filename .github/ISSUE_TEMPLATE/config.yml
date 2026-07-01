@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Discussions
+    url: https://github.com/NoahMustafa/Aither-Download-Manager/discussions
+    about: Questions and general discussion that aren't a bug or feature request

@@ -9,16 +9,19 @@
 
 # Aither Download Manager
 
-**A next-generation download manager built for speed, privacy, and simplicity.**
+**Multi-connection download manager for Windows — 1000+ sites via yt-dlp, torrents via aria2, one-click browser download interception.**
 
-[![Version](https://img.shields.io/badge/version-0.1.6-a78bfa?style=flat-square)](https://github.com/NoahMustafa/Aither-Download-Manager/releases/tag/v0.1.6)
-[![Platform](https://img.shields.io/badge/platform-Windows-0078d4?style=flat-square&logo=windows)](https://github.com/NoahMustafa/Aither-Download-Manager/releases/tag/v0.1.6)
+[![Latest Release](https://img.shields.io/github/v/release/NoahMustafa/Aither-Download-Manager?style=flat-square&label=release&color=a78bfa)](https://github.com/NoahMustafa/Aither-Download-Manager/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/NoahMustafa/Aither-Download-Manager/total?style=flat-square&color=success)](https://github.com/NoahMustafa/Aither-Download-Manager/releases)
+[![Stars](https://img.shields.io/github/stars/NoahMustafa/Aither-Download-Manager?style=flat-square&color=yellow)](https://github.com/NoahMustafa/Aither-Download-Manager/stargazers)
+[![Platform](https://img.shields.io/badge/platform-Windows-0078d4?style=flat-square&logo=windows)](https://github.com/NoahMustafa/Aither-Download-Manager/releases/latest)
+[![License](https://img.shields.io/badge/license-Proprietary-red?style=flat-square)](LICENSE)
 [![Built with Tauri](https://img.shields.io/badge/built%20with-Tauri-24c8db?style=flat-square&logo=tauri)](https://tauri.app)
 [![Built with Rust](https://img.shields.io/badge/engine-Rust-f74c00?style=flat-square&logo=rust)](https://www.rust-lang.org)
 [![PayPal](https://img.shields.io/badge/Donate-PayPal-0070ba?style=flat-square&logo=paypal&logoColor=white)](https://paypal.me/MahmoudMustafa186)
 [![Ko-fi](https://img.shields.io/badge/Support-Ko--fi-ff5e5b?style=flat-square&logo=ko-fi&logoColor=white)](https://ko-fi.com/noah_mustafa_stuff)
 
-[**Website**](https://aither-landing-page.pages.dev/) · [**Download**](https://github.com/NoahMustafa/Aither-Download-Manager/releases/latest) · [**Report a Bug**](https://github.com/NoahMustafa/Aither-Download-Manager/issues) · [**Request a Feature**](https://github.com/NoahMustafa/Aither-Download-Manager/issues) · [**Buy me a coffee ☕**](https://ko-fi.com/noah_mustafa_stuff)
+[**Website**](https://aither-landing-page.pages.dev/) · [**Download**](https://github.com/NoahMustafa/Aither-Download-Manager/releases/latest) · [**Changelog**](CHANGELOG.md) · [**Report a Bug**](https://github.com/NoahMustafa/Aither-Download-Manager/issues/new?template=bug_report.yml) · [**Request a Feature**](https://github.com/NoahMustafa/Aither-Download-Manager/issues/new?template=feature_request.yml) · [**Discussions**](https://github.com/NoahMustafa/Aither-Download-Manager/discussions) · [**Buy me a coffee ☕**](https://ko-fi.com/noah_mustafa_stuff)
 
 </div>
 
@@ -152,7 +155,7 @@ Aither is a free, freemium download manager that replaces your browser's built-i
 
 ### Option 1 — MSI Installer (Recommended)
 
-1. Download **`Aither_0.1.6_x64.msi`** from the [latest release](https://github.com/NoahMustafa/Aither-Download-Manager/releases/latest)
+1. Download the **`.msi`** installer from the [latest release](https://github.com/NoahMustafa/Aither-Download-Manager/releases/latest)
 2. Run the installer and follow the prompts
 3. Aither launches automatically and appears in the system tray
 
@@ -227,6 +230,21 @@ Browser Extension ──intercepts──► Aither App
 | Media downloads   | [yt-dlp](https://github.com/yt-dlp/yt-dlp)                                |
 | Torrents          | [aria2c](https://aria2.github.io)                                         |
 | Styling           | [Tailwind CSS](https://tailwindcss.com)                                   |
+
+---
+
+## How Aither Compares
+
+|                                       | Aither             | Motrix             | omniget            | FileCentipede           |
+| ------------------------------------- | ------------------- | ------------------- | ------------------- | ------------------------ |
+| Platforms                             | Windows             | Cross-platform      | Cross-platform      | Cross-platform            |
+| License                               | Free, proprietary   | Open source (MIT)   | Open source (GPL-3.0) | Free, source-available |
+| Browser video-capture extension       | ✅                  | —                   | —                   | ✅                        |
+| yt-dlp media downloads (1000+ sites)  | ✅                  | —                   | ✅                  | —                         |
+| Torrent / magnet (aria2)              | ✅                  | ✅                  | —                   | ✅                        |
+| Cookie-based private/login content    | ✅                  | —                   | —                   | ✅                        |
+
+No single alternative combines all four rows: FileCentipede overlaps on browser capture and cookies, omniget overlaps on yt-dlp breadth, Motrix and FileCentipede overlap on torrents. Aither is the only one that pairs all three feature rows in a native Rust engine — and the only one of the four that isn't open source.
 
 ---
 
@@ -312,50 +330,29 @@ These projects are distributed under their respective open source licenses. Aith
 
 ---
 
+## Star History
+
+<a href="https://star-history.com/#NoahMustafa/Aither-Download-Manager&Date">
+  <img src="https://api.star-history.com/svg?repos=NoahMustafa/Aither-Download-Manager&type=Date" alt="Star History Chart" width="700" />
+</a>
+
+---
+
 ## Contributing
 
-Contributions, bug reports, and feature requests are welcome. Please open an issue before submitting a pull request so we can discuss the approach.
+Aither's source is proprietary, so PRs changing app behavior aren't accepted — but bug reports, feature requests, and translation fixes are welcome and directly shape the roadmap. See [CONTRIBUTING.md](CONTRIBUTING.md) for how to file one, or use [Discussions](https://github.com/NoahMustafa/Aither-Download-Manager/discussions) for anything else.
+
+Found a security issue? Do not open a public issue — see [SECURITY.md](SECURITY.md) for how to report it privately.
 
 ---
 
 ## License
 
-Aither is **free to use** but **not open source**. The source code is proprietary and may not be copied, modified, redistributed, or used to build derivative products without explicit written permission from the Aither Team.
+Aither is **free to use** but **not open source**. The source code is proprietary and may not be copied, modified, redistributed, or used to build derivative products without explicit written permission from the Aither Team. Full terms, the content/copyright notice, and the disclaimer are in [LICENSE](LICENSE).
 
-**What you can do:**
+**What you can do:** download and use Aither for personal or commercial purposes at no cost; report bugs and suggest features.
 
-- Download and use Aither for personal or commercial purposes at no cost
-- Report bugs and suggest features
-
-**What you cannot do:**
-
-- Redistribute, repackage, or resell Aither or its components
-- Decompile, reverse engineer, or modify the application
-- Use the source code or assets in other projects
-
-### Content & Copyright Notice
-
-Aither is a download tool. It does not host, distribute, or provide access to any content. It simply helps you download files and media that you access through your own browser and accounts.
-
-**Aither does not encourage or condone:**
-
-- Downloading copyrighted content without the rights holder's permission
-- Circumventing DRM or access controls
-- Violating the terms of service of any platform
-
-You are solely responsible for ensuring that your use of Aither complies with applicable laws and the terms of the platforms you interact with. The developers of Aither assume no liability for how the software is used.
-
-### Disclaimer
-
-Aither is provided **as-is**, without any warranty of any kind — express or implied. By using Aither, you agree to the following:
-
-- **We are not responsible for anything you download.** What you choose to download using Aither is entirely your own decision and your own responsibility.
-- **No security guarantees.** While we have implemented reasonable security measures (encrypted cookies, encrypted logs, no telemetry, local-only data), Aither is not a certified or audited security product. No software is 100% secure. Vulnerabilities may exist.
-- **Security issues will be addressed promptly.** If a security issue is discovered, we will make every reasonable effort to investigate and release a fix as quickly as possible. However, we cannot guarantee a specific response time or that all issues will be resolved.
-- **Keep the app updated.** Security fixes and patches are delivered through app updates. We strongly recommend keeping Aither up to date at all times. Outdated versions may contain known vulnerabilities that have already been patched in newer releases.
-- **Use at your own risk.** The Aither Team provides this software in good faith and with genuine effort toward quality and security, but we make no guarantees about fitness for any particular purpose, uninterrupted operation, or freedom from bugs or security flaws.
-
-The Aither Team shall not be held liable for any damages, data loss, legal consequences, or other harm arising from the use or misuse of this software.
+**What you cannot do:** redistribute, repackage, or resell Aither or its components; decompile, reverse engineer, or modify the application; use the source code or assets in other projects.
 
 ---
 
